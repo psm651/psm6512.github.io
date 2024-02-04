@@ -47,9 +47,9 @@ github_username:  https://github.com/psm651
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-java, php 기반의 5년차 백엔드 개발자 박성민입니다.
-문제를 해결하여 비즈니스 성장에 기여하는 일을 최우선으로 합니다. 빠른 개발은 역설적이게도 바른 개발임을 느껴 서비스를 심도있게 분석/설계하고 테스트코드를 작성하여 디버깅 최소화 및 리팩토링시간 단축을 위한 역량을 쌓고자 노력중입니다.
-개발에 집중하기 위해 반복되는 일을 자동화하고, 비효율적인 프로세스를 개선하여 개발 생산성을 높이는 일을 좋아합니다. 
+	java, php 기반의 5년차 백엔드 개발자 박성민입니다.
+	문제를 해결하여 비즈니스 성장에 기여하는 일을 최우선으로 합니다. 빠른 개발은 역설적이게도 바른 개발임을 느껴 서비스를 심도있게 분석/설계하고 테스트코드를 작성하여 디버깅 최소화 및 리팩토링시간 단축을 위한 역량을 쌓고자 노력중입니다.
+	개발에 집중하기 위해 반복되는 일을 자동화하고, 비효율적인 프로세스를 개선하여 개발 생산성을 높이는 일을 좋아합니다. 
 #I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
 
 content:
