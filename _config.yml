@@ -1,157 +1,32 @@
 # Site
-repository: sproogen/resume-theme
-favicon: images/favicon.ico
-
-# Content configuration version
-version: 2
+repository: psm651/psm651.github.io
 
 # Personal info
 name: 박성민
 title: 백엔드 개발자
 email: psm651@naver.com
 website: https://shutcoding.tistory.com
-# Dark Mode (true/false/never)
-darkmode: never
-
-# Social links
-#twitter_username: facespics
-github_username:  https://github.com/psm651
-# stackoverflow_username: "00000001"
-# dribbble_username: jekyll
-# facebook_username: jekyll
-# flickr_username: jekyll
-#instagram_username: jameswgrant
-#linkedin_username: jameswgrant
-# xing_username: jekyll
-# pinterest_username: jekyll
-#youtube_username: globalmtb
-# googleplus_username: +jekyll
-# orcid_username: 0000-0000-0000-0000
 
 # Additional icon links
-# additional_links:
-# - title: itsgoingto.be
-#   icon: fas fa-globe
-#   url: https://www.itsgoingto.be
-# - title: another link
-#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
-#   url: Link url (eg. https://google.com)
+additional_links:
+  - title: Tech Blog
+    icon: fab fa-blogger
+    url: https://shutcoding.tistory.com
 
-# Google Analytics and Tag Manager
-# Using more than one of these may cause issues with reporting
-# gtm: "GTM-0000000"
-# gtag: "UA-00000000-0"
-# google_analytics: "UA-00000000-0"
+# Social links
+github_username: psm651
 
 # About Section
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-	java, php 기반의 5년차 백엔드 개발자 박성민입니다.
-	문제를 해결하여 비즈니스 성장에 기여하는 일을 최우선으로 합니다. 빠른 개발은 역설적이게도 바른 개발임을 느껴 서비스를 심도있게 분석/설계하고 테스트코드를 작성하여 디버깅 최소화 및 리팩토링시간 단축을 위한 역량을 쌓고자 노력중입니다.
-	개발에 집중하기 위해 반복되는 일을 자동화하고, 비효율적인 프로세스를 개선하여 개발 생산성을 높이는 일을 좋아합니다. 
-#I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
-
-content:
-  - title: Experience # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: left
-        title: 가비아
-        link: https://www.gabia.com
-        # link_text: boringcompany.com
-        sub_title: 하이웍스 개발팀 그룹웨어 개발 유닛
-        caption: 2022.08 - 재직중 
-        quote: >
-          7년이상 레거시 프로그램의 개발 및 운영
-        description: | # this will include new lines to allow paragraphs
-          - [레거시 전환(php5.6 -> java & 스프링)](https://shutcoding.tistory.com/entry/php%EC%97%90%EC%84%9C-java%EB%A1%9C-%EC%A0%84%ED%99%98%ED%95%98%EA%B8%B0%EC%9E%91%EC%84%B1%EC%A4%91)
-          - [성능 최적화](https://shutcoding.tistory.com/entry/%EC%9D%B8%EB%8D%B1%EC%8A%A4index%EB%9E%80-%EC%9D%B8%EB%8D%B1%EC%8A%A4-%EC%95%8C%EA%B3%A0%EC%93%B0%EA%B8%B0)
-          - 운영이슈 해결 및 장애대응
-          - 다수의 마이그레이션 스크립트 작성
-      - layout: left
-        title: 메일플러그 
-        link: https://www.mailplug.com/
-        # link_text: boringcompany.com
-        sub_title: 메일플러그 개발1팀 파트장
-        caption: 2019.04 -  2022.08
-        quote: >
-        description: | # this will include new lines to allow paragraphs
-          - 메일, 전자결재, 게시판, 아카이빙 개발 및 운영
-          - 10여개 대학교 및 공공기관 데이터 이전 및 메일 이관
-          - 운영이슈 해결 및 장애대응
-          - 다수의 마이그레이션 스크립트 작성
-          - IDC 인프라 환경에서의 개발/운영/배포
-            
-  # - title: Projects # Title for the section
-  #   layout: list # Type of content section (list/text)
-  #   content:
-  #     - layout: top-middle
-  #       title: Super awesome project
-  #       link: github.com/sproogen
-  #       # link_text: Project Website
-  #       additional_links:
-  #         - title:  sproogen/modern-resume-theme
-  #           icon: fab fa-github
-  #           url: github.com/sproogen/modern-resume-theme
-  #         # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-  #         #   icon: fab fa-github
-  #         #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-  #       quote: >
-  #         This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
-  #       description: | # this will include new lines to allow paragraphs
-  #         I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
-
-  # - title: Education # Title for the section
-  #   layout: list # Type of content section (list/text)
-  #   content:
-  #     - layout: left
-  #       title: Harvard University
-  #       caption: 2010 - 2013
-  #       sub_title: BSc Computer Science
-  #       quote: >
-  #         Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
-  #       description: | # this will include new lines to allow paragraphs
-  #         During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
-
-  #         I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
-
-  - title: Skil
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: left
-        title: Backend
-        link: https://www.gabia.com
-        # link_text: boringcompany.com
-        description: | # this will include new lines to allow paragraphs
-          - java, PHP
-          - Spring Boot, CodeIgniter
-          - JPA, Querydsl
-          - Junit5, Mockito, RestAssured
-          - Git, Gitlab
-          - Gradle
-          - IntelliJ, DataGrip, Vim, ShellScript
-      - layout: left
-        title: DevOps 
-        description: | # this will include new lines to allow paragraphs
-          - MySQL, MariaDB
-          - Nginx, Tomcat
-          - Pinpoint, Ngrinder
-          - Linux
-          - JMeter, nGrinder
-          - Docker
-      - layout: left
-        title: Communication Tool
-        description: | # this will include new lines to allow paragraphs
-          - JIRA, CONFLUENCE, WIKI
-          - Pinpoint, Ngrinder
-          - Linux
-          - JMeter, nGrinder
-          - Docker
+  Java,PHP 기반의 5년차 백엔드 개발자 박성민입니다.  \
+  문제를 해결하여 비즈니스 성장에 기여하는 일을 최우선으로 합니다. 빠른 개발은 역설적이게도 바른 개발임을 느껴 서비스를 심도있게 분석/설계하고, 테스트코드를 작성하여 디버깅 최소화 및 리팩토링시간 단축을 위한 역량을 쌓고자 노력중입니다.
+  개발에 집중하기 위해 **반복되는 일을 자동화하고, 비효율적인 프로세스를 개선하여 개발 생산성을 높이는 일**을 좋아합니다.  \
+  세상에 신은 없다고 믿기에 배포 하며 기도 하지 않고, 항상 최악의 상황을 가정해 발생할 수 있는 장애를 도출하고, 장애 처리 결과는 추측을 넘어 데이터로 확인하기 위해 노력합니다.
 
 # Footer
-footer_show_references: false
-# references_title: References on request (Override references text)
+footer_show_references: true
 
 # Build settings
 remote_theme: sproogen/resume-theme
@@ -161,4 +36,4 @@ sass:
   style: compressed
 
 plugins:
- - jekyll-seo-tag
+  - jekyll-seo-tag

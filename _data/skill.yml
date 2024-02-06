@@ -1,0 +1,39 @@
+#- layout: left
+#  name: Backend
+#  description: | # this will include new lines to allow paragraphs
+#    * Java
+#    * Spring Boot
+#    * JPA, Querydsl
+#    * Junit5, Mockito, RestAssured
+#    * IntelliJ, DataGrip, Vim
+#    * Gradle
+#- layout: left
+#  name: DevOps
+#  description: |
+#    * MySQL, MariaDB
+#    * JMeter, nGrinder
+#    * Docker
+- layout: left
+  name: Backend
+  description: | # this will include new lines to allow paragraphs
+    * java, PHP
+    * Spring Boot, CodeIgniter
+    * JPA, Querydsl
+    * Junit5, Mockito, RestAssured
+    * Git, Gitlab
+    * Gradle
+    * IntelliJ, DataGrip, Vim, ShellScript
+- layout: left
+  name: DevOps
+  description: | # this will include new lines to allow paragraphs
+    * MySQL, MariaDB
+    * Nginx, Tomcat
+    * Pinpoint, Ngrinder
+    * Linux
+    * JMeter, nGrinder
+    * Docker
+- layout: left
+  name: Communication Tool
+  description: | # this will include new lines to allow paragraphs
+    * JIRA
+    * CONFLUENCE, WIKI
